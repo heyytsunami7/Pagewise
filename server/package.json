@@ -11,7 +11,9 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "dev:legacy": "nodemon legacy/index.legacy.js",
-    "catalog:fetch:openlibrary": "node scripts/fetch-openlibrary.js"
+    "catalog:fetch:openlibrary": "node scripts/fetch-openlibrary.js",
+    "catalog:fetch:gutendex": "node scripts/fetch-gutendex.js",
+    "catalog:fetch": "npm run catalog:fetch:openlibrary && npm run catalog:fetch:gutendex"
   },
   "keywords": [],
   "author": "",

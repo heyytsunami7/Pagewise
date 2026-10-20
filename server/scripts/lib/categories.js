@@ -13,4 +13,19 @@ const OPENLIBRARY_QUERIES = Object.freeze({
   Business: ["business"],
 });
 
-module.exports = { OPENLIBRARY_QUERIES };
+// Gutendex (Project Gutenberg) topics for each category, tried in order the same way.
+// A topic matches a key phrase in a book's subjects or bookshelves.
+const GUTENDEX_TOPICS = Object.freeze({
+  Fiction: ["fiction"],
+  "Non-Fiction": ["essays"],
+  Mystery: ["detective"],
+  Fantasy: ["fantasy"],
+  Horror: ["horror"],
+  Humor: ["humor"],
+  Biography: ["biography"],
+  Psychology: ["psychology"],
+  History: ["history"],
+  Business: ["business", "economics"],
+});
+
+module.exports = { OPENLIBRARY_QUERIES, GUTENDEX_TOPICS };

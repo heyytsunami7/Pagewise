@@ -92,10 +92,10 @@ function matchingCategories(subjects) {
 }
 
 // hint: the category the book was fetched under (optional).
-function assignCategory(subjects, { hint } = {}) {
+function assignCategory(subjects, { hints = [] } = {}) {
   const matches = matchingCategories(subjects);
-  if (hint && !GENERIC_CATEGORIES.has(hint) && matches.includes(hint)) return hint;
-  return matches[0] ?? null;
+  const confirmed = [].concat(hints).filter((hint) => matches.includes(hint));
+  const specific = confirmed.find((hint) => !GENERIC_CATEGORIES.has(hint));
+  return specific ?? confirmed[0] ?? matches[0] ?? null;
 }
-
 module.exports = { CATEGORY_PRIORITY, CATEGORY_KEYWORDS, matchingCategories, assignCategory };

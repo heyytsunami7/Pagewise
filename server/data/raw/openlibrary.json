@@ -1,6 +1,6 @@
 {
   "source": "openlibrary",
-  "fetchedAt": "2026-10-20T15:19:15.531Z",
+  "fetchedAt": "2026-10-21T03:32:16.267Z",
   "categories": {
     "Fiction": [
       {
@@ -173,7 +173,7 @@
           "Holly Black"
         ],
         "firstPublishYear": 2018,
-        "isbn": "9780316310314",
+        "isbn": "9780316310277",
         "coverId": 8361789,
         "coverUrl": "https://covers.openlibrary.org/b/id/8361789-L.jpg",
         "pageCount": 378,
@@ -401,7 +401,7 @@
           "H. G. Wells"
         ],
         "firstPublishYear": 1895,
-        "isbn": "9798520062998",
+        "isbn": "9781986517072",
         "coverId": 9009316,
         "coverUrl": "https://covers.openlibrary.org/b/id/9009316-L.jpg",
         "pageCount": 120,
@@ -687,7 +687,7 @@
           "Stephanie Garber"
         ],
         "firstPublishYear": 2000,
-        "isbn": "9781399739672",
+        "isbn": "9781250095268",
         "coverId": 7990753,
         "coverUrl": "https://covers.openlibrary.org/b/id/7990753-L.jpg",
         "pageCount": 436,
@@ -801,7 +801,7 @@
           "H. G. Wells"
         ],
         "firstPublishYear": 0,
-        "isbn": "9798575554950",
+        "isbn": "9781412196956",
         "coverId": 36314,
         "coverUrl": "https://covers.openlibrary.org/b/id/36314-L.jpg",
         "pageCount": 206,
@@ -881,7 +881,7 @@
           "Михаил Афанасьевич Булгаков"
         ],
         "firstPublishYear": 1966,
-        "isbn": "9789626349359",
+        "isbn": "9789752899988",
         "coverId": 12947486,
         "coverUrl": "https://covers.openlibrary.org/b/id/12947486-L.jpg",
         "pageCount": 439,
@@ -1805,7 +1805,7 @@
           "Robert Greene"
         ],
         "firstPublishYear": 1998,
-        "isbn": "9789960208640",
+        "isbn": "9780733614972",
         "coverId": 6424160,
         "coverUrl": "https://covers.openlibrary.org/b/id/6424160-L.jpg",
         "pageCount": 452,
@@ -3573,7 +3573,7 @@
           "Arthur Conan Doyle"
         ],
         "firstPublishYear": 1892,
-        "isbn": "9781675990902",
+        "isbn": "9798847921541",
         "coverId": 6717853,
         "coverUrl": "https://covers.openlibrary.org/b/id/6717853-L.jpg",
         "pageCount": 309,
@@ -4912,7 +4912,7 @@
           "Stephen King"
         ],
         "firstPublishYear": 1986,
-        "isbn": "9789024516131",
+        "isbn": "9780340951644",
         "coverId": 8569284,
         "coverUrl": "https://covers.openlibrary.org/b/id/8569284-L.jpg",
         "pageCount": 1168,
@@ -5993,7 +5993,7 @@
           "Shel Silverstein"
         ],
         "firstPublishYear": 1974,
-        "isbn": "9780694000487",
+        "isbn": "9780060256401",
         "coverId": 2270510,
         "coverUrl": "https://covers.openlibrary.org/b/id/2270510-L.jpg",
         "pageCount": 170,
@@ -8554,7 +8554,7 @@
           "James Clear"
         ],
         "firstPublishYear": 2016,
-        "isbn": "9781804220207",
+        "isbn": "9789390085255",
         "coverId": 12539702,
         "coverUrl": "https://covers.openlibrary.org/b/id/12539702-L.jpg",
         "pageCount": 322,
@@ -8913,7 +8913,7 @@
           "Robert A. Baron"
         ],
         "firstPublishYear": 1977,
-        "isbn": "9780205422012",
+        "isbn": "9780205132713",
         "coverId": 1146622,
         "coverUrl": "https://covers.openlibrary.org/b/id/1146622-L.jpg",
         "pageCount": 660,
@@ -9984,7 +9984,7 @@
           "Joel G. Colton"
         ],
         "firstPublishYear": 1950,
-        "isbn": "9780075574170",
+        "isbn": "9780394336008",
         "coverId": 6286058,
         "coverUrl": "https://covers.openlibrary.org/b/id/6286058-L.jpg",
         "pageCount": 1101,
@@ -10740,7 +10740,7 @@
           "James Clear"
         ],
         "firstPublishYear": 2016,
-        "isbn": "9781804220207",
+        "isbn": "9789390085255",
         "coverId": 12539702,
         "coverUrl": "https://covers.openlibrary.org/b/id/12539702-L.jpg",
         "pageCount": 322,
@@ -10765,7 +10765,7 @@
           "Blake Masters"
         ],
         "firstPublishYear": 2001,
-        "isbn": "9780753555200",
+        "isbn": "9780804165259",
         "coverId": 9002334,
         "coverUrl": "https://covers.openlibrary.org/b/id/9002334-L.jpg",
         "pageCount": 253,
@@ -11039,7 +11039,7 @@
           "Cal Newport"
         ],
         "firstPublishYear": 2016,
-        "isbn": "9781455586691",
+        "isbn": "9783868816570",
         "coverId": 7988607,
         "coverUrl": "https://covers.openlibrary.org/b/id/7988607-L.jpg",
         "pageCount": 303,

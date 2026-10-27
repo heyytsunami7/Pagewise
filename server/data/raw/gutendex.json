@@ -1,0 +1,466 @@
+{
+  "source": "gutendex",
+  "fetchedAt": "2026-10-27T15:43:39.686Z",
+  "categories": {
+    "Fiction": [
+      {
+        "externalId": "1342",
+        "title": "Pride and Prejudice",
+        "authors": [
+          "Jane Austen"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/1342.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/1342",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
+        "subjects": [
+          "Courtship -- Fiction",
+          "Domestic fiction",
+          "England -- Fiction",
+          "Love stories",
+          "Sisters -- Fiction",
+          "Social classes -- Fiction",
+          "Young women -- Fiction",
+          "Best Books Ever Listings",
+          "British Literature",
+          "Classics of Literature",
+          "Novels",
+          "Romance",
+          "Harvard Classics"
+        ],
+        "description": "\"Pride and Prejudice\" by Jane Austen is a novel published in 1813. It follows Elizabeth Bennet, who must learn to see past first impressions and hasty judgments. With five daughters and an estate that can only pass to male heirs, the Bennet family faces financial pressure to marry well. When wealthy Mr. Darcy arrives in their countryside neighborhood, his pride and Elizabeth's prejudice set the stage for misunderstandings, hidden truths, and unexpected revelations about character and love.",
+        "downloadCount": 190246
+      },
+      {
+        "externalId": "84",
+        "title": "Frankenstein",
+        "authors": [
+          "Mary Wollstonecraft Shelley"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/84.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/84",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
+        "subjects": [
+          "Gothic fiction",
+          "Horror tales",
+          "Monsters -- Fiction",
+          "Science fiction",
+          "Scientists -- Fiction",
+          "British Literature",
+          "Classics of Literature",
+          "Novels",
+          "Science-Fiction & Fantasy",
+          "Movie Books",
+          "Precursors of Science Fiction",
+          "Science Fiction by Women"
+        ],
+        "description": "\"Frankenstein; Or, The Modern Prometheus\" by Mary Wollstonecraft Shelley is a Gothic novel published in 1818. It tells the story of Victor Frankenstein, a young scientist who creates a living creature from assembled body parts in an unorthodox experiment. When the creature awakens, Victor flees in horror, abandoning his creation. The conscious being must navigate a world that fears him, learning language and seeking connection, only to face repeated rejection. Embittered and alone, the creature confronts his creator with a desperate request that will set both on a dark path of vengeance and tragedy.",
+        "downloadCount": 182729
+      },
+      {
+        "externalId": "2701",
+        "title": "Moby Dick",
+        "authors": [
+          "Herman Melville"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/2701.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/2701",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/2701/pg2701.cover.medium.jpg",
+        "subjects": [
+          "Adventure stories",
+          "Mentally ill -- Fiction",
+          "Psychological fiction",
+          "Sea stories",
+          "Ship captains -- Fiction",
+          "Whales -- Fiction",
+          "Whaling -- Fiction",
+          "Whaling ships -- Fiction",
+          "Best Books Ever Listings",
+          "Adventure",
+          "American Literature",
+          "Classics of Literature",
+          "Novels"
+        ],
+        "description": "\"Moby Dick; Or, The Whale\" by Herman Melville is an epic novel published in 1851. Sailor Ishmael narrates the obsessive quest of Captain Ahab, who commands the whaling ship Pequod in pursuit of Moby Dick, a giant white sperm whale that destroyed his leg. Ahab's monomaniacal hunt for vengeance drives the ship and its diverse crew across the world's oceans, blending realistic whaling details with profound explorations of good, evil, fate, and human nature in this cornerstone of American literature.",
+        "downloadCount": 165720
+      },
+      {
+        "externalId": "11",
+        "title": "Alice's Adventures in Wonderland",
+        "authors": [
+          "Lewis Carroll"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/11.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/11",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
+        "subjects": [
+          "Children's stories",
+          "Fantasy fiction",
+          "Imaginary places -- Juvenile fiction",
+          "British Literature",
+          "Children & Young Adult Reading",
+          "Classics of Literature",
+          "Novels",
+          "Children's Literature"
+        ],
+        "description": "\"Alice's Adventures in Wonderland\" by Lewis Carroll is a children's novel published in 1865. When a curious girl named Alice spots a White Rabbit with a pocket watch, she tumbles down a rabbit hole into an extraordinary fantasy world filled with peculiar anthropomorphic creatures. This pioneering work of literary nonsense plays with logic and language, creating a whimsical tale that delights both children and adults. Illustrated by John Tenniel, it helped transform children's literature from didactic instruction to pure entertainment.",
+        "downloadCount": 121623
+      },
+      {
+        "externalId": "1661",
+        "title": "The Adventures of Sherlock Holmes",
+        "authors": [
+          "Arthur Conan Doyle"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/1661.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/1661",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+        "subjects": [
+          "Detective and mystery stories, English",
+          "Banned Books from Anne Haight's list",
+          "British Literature",
+          "Crime, Thrillers and Mystery",
+          "Short Stories",
+          "Contemporary Reviews",
+          "Detective Fiction"
+        ],
+        "description": "\"The Adventures of Sherlock Holmes\" by Arthur Conan Doyle is a collection of short stories first published in 1892. These twelve tales feature the legendary consulting detective Sherlock Holmes and his companion Dr. Watson, narrated from Watson's perspective. Each mystery explores social injustices while showcasing Holmes's brilliant deductive methods and unconventional approach to justice. The stories introduce memorable characters and cases that have captivated readers for over a century, establishing Holmes as one of literature's most enduring detectives.",
+        "downloadCount": 96353
+      },
+      {
+        "externalId": "345",
+        "title": "Dracula",
+        "authors": [
+          "Bram Stoker"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/345.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/345",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
+        "subjects": [
+          "Epistolary fiction",
+          "Gothic fiction",
+          "Horror tales",
+          "Transylvania (Romania) -- Fiction",
+          "Vampires -- Fiction",
+          "Whitby (England) -- Fiction",
+          "British Literature",
+          "Classics of Literature",
+          "Crime, Thrillers and Mystery",
+          "Novels",
+          "Science-Fiction & Fantasy",
+          "Horror",
+          "Movie Books",
+          "Mystery Fiction"
+        ],
+        "description": "\"Dracula\" by Bram Stoker is a Gothic horror novel published in 1897. Told through letters, diary entries, and newspaper articles, the story follows solicitor Jonathan Harker's terrifying encounter with Count Dracula in Transylvania. When the vampire Count travels to England and begins preying on victims in Whitby, a small group led by Professor Abraham Van Helsing must hunt him down. This seminal work of Gothic fiction has become the centrepiece of vampire literature, profoundly shaping the popular conception of vampires for generations.",
+        "downloadCount": 78131
+      },
+      {
+        "externalId": "43",
+        "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+        "authors": [
+          "Robert Louis Stevenson"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/43.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/43",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/43/pg43.cover.medium.jpg",
+        "subjects": [
+          "Horror tales",
+          "London (England) -- Fiction",
+          "Multiple personality -- Fiction",
+          "Physicians -- Fiction",
+          "Psychological fiction",
+          "Science fiction",
+          "British Literature",
+          "Classics of Literature",
+          "Crime, Thrillers and Mystery",
+          "Novels",
+          "Horror",
+          "Movie Books",
+          "Precursors of Science Fiction"
+        ],
+        "description": "\"The Strange Case of Dr. Jekyll and Mr. Hyde\" by Robert Louis Stevenson is a Gothic horror novella published in 1886. When London lawyer Gabriel John Utterson investigates strange occurrences involving his old friend Dr. Henry Jekyll and a murderous criminal named Edward Hyde, he uncovers a disturbing mystery. This defining work of Gothic horror explores the duality of human nature and has profoundly influenced popular culture, making \"Jekyll and Hyde\" synonymous with hidden evil beneath respectable appearances.",
+        "downloadCount": 71859
+      },
+      {
+        "externalId": "2641",
+        "title": "A Room with a View",
+        "authors": [
+          "E. M. (Edward Morgan) Forster"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/2641.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/2641",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/2641/pg2641.cover.medium.jpg",
+        "subjects": [
+          "British -- Italy -- Fiction",
+          "England -- Fiction",
+          "Florence (Italy) -- Fiction",
+          "Humorous stories",
+          "Young women -- Fiction",
+          "British Literature",
+          "Novels",
+          "Romance",
+          "Italy"
+        ],
+        "description": "\"A Room with a View\" by E. M. Forster is a novel published in 1908. Young Lucy Honeychurch travels to Italy with her uptight cousin as chaperone, where an unexpected encounter with the unconventional George Emerson stirs confusing emotions. Back in England, Lucy becomes engaged to the sophisticated but pompous Cecil Vyse. When the Emersons move nearby, Lucy must confront her true feelings and decide between societal expectations and genuine passion in Edwardian England's restrained culture.",
+        "downloadCount": 70690
+      },
+      {
+        "externalId": "145",
+        "title": "Middlemarch",
+        "authors": [
+          "George Eliot"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/145.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/145",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/145/pg145.cover.medium.jpg",
+        "subjects": [
+          "Bildungsromans",
+          "City and town life -- Fiction",
+          "Didactic fiction",
+          "Domestic fiction",
+          "England -- Fiction",
+          "Love stories",
+          "Married people -- Fiction",
+          "Young women -- Fiction",
+          "Best Books Ever Listings",
+          "British Literature",
+          "Classics of Literature",
+          "Novels",
+          "Historical Fiction"
+        ],
+        "description": "\"Middlemarch\" by George Eliot is a novel published in 1871-1872. Set in a fictional English Midlands town from 1829 to 1832, it weaves together multiple intersecting stories exploring the status of women, marriage, idealism, and political reform. The narrative follows Dorothea Brooke's search for purpose, Dr. Lydgate's medical ambitions, and several other inhabitants navigating love, debt, scandal, and social change against the backdrop of the approaching Reform Act of 1832.",
+        "downloadCount": 70535
+      },
+      {
+        "externalId": "67979",
+        "title": "The Blue Castle: a novel",
+        "authors": [
+          "L. M. (Lucy Maud) Montgomery"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/67979.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/67979",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/67979/pg67979.cover.medium.jpg",
+        "subjects": [
+          "Choice (Psychology) -- Fiction",
+          "Love -- Fiction",
+          "Romance fiction",
+          "Single women -- Fiction",
+          "Young adult fiction",
+          "Novels",
+          "Romance"
+        ],
+        "description": "\"The Blue Castle: a novel by L. M. Montgomery\" is a novel published in 1926. Twenty-nine-year-old Valancy Stirling has spent her entire life suffocated by her controlling family's expectations. When she receives a shocking medical diagnosis, she decides to finally break free and live on her own terms. She scandalizes her relatives by speaking her mind, moving out, and eventually proposing marriage to the mysterious and supposedly disreputable Barney Snaith. Together they build a new life on a remote island—but secrets still linger.",
+        "downloadCount": 62659
+      }
+    ],
+    "Non-Fiction": [
+      {
+        "externalId": "2160",
+        "title": "The Expedition of Humphry Clinker",
+        "authors": [
+          "T. (Tobias) Smollett"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/2160.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/2160",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/2160/pg2160.cover.medium.jpg",
+        "subjects": [
+          "Epistolary fiction",
+          "Great Britain -- Fiction",
+          "Travelers -- Fiction",
+          "Best Books Ever Listings",
+          "British Literature",
+          "Classics of Literature",
+          "Essays, Letters & Speeches",
+          "Humour",
+          "Novels",
+          "Travel Writing",
+          "Historical Fiction"
+        ],
+        "description": "\"The Expedition of Humphry Clinker\" by Tobias Smollett is an epistolary novel published in 1771. Six correspondents—including a gouty Welsh squire, his husband-hunting sister, and their servants—chronicle a journey through England and Scotland's fashionable spa towns and resorts. Through wildly contrasting letters describing the same events, Smollett satirizes eighteenth-century British society, class pretensions, and urban life. The mysterious ostler Humphry Clinker joins their travels, bringing comic misadventures, romantic entanglements, and surprising revelations that transform the expedition.",
+        "downloadCount": 43773
+      },
+      {
+        "externalId": "1080",
+        "title": "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+        "authors": [
+          "Jonathan Swift"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/1080.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/1080",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/1080/pg1080.cover.medium.jpg",
+        "subjects": [
+          "Political satire, English",
+          "Religious satire, English",
+          "British Literature",
+          "Classics of Literature",
+          "Essays, Letters & Speeches"
+        ],
+        "description": "\"A Modest Proposal\" by Jonathan Swift is a satirical essay written and published in 1729. The work shockingly suggests that Ireland's poor could solve their economic troubles by selling their children as food to the wealthy. Through sustained irony and deadpan humor, Swift uses this outrageous premise to mock hostile attitudes toward the poor and expose the dehumanizing policies of British colonial rule. The essay remains celebrated for its dark wit and biting social commentary.",
+        "downloadCount": 37350
+      },
+      {
+        "externalId": "205",
+        "title": "Walden, and On The Duty Of Civil Disobedience",
+        "authors": [
+          "Henry David Thoreau"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/205.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/205",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/205/pg205.cover.medium.jpg",
+        "subjects": [
+          "Civil disobedience",
+          "Government, Resistance to",
+          "Solitude",
+          "American Literature",
+          "Essays, Letters & Speeches",
+          "Philosophy & Ethics"
+        ],
+        "description": "\"Walden, and On The Duty Of Civil Disobedience\" by Henry David Thoreau is a philosophical essay and social critique written in the mid-19th century. This work reflects Thoreau's reflections on simple living in natural surroundings, drawing from his personal experiment of living alone in the woods near Walden Pond. Thoreau emphasizes themes of self-sufficiency, the critique of materialism, and the importance of individual conscience and civil disobedience in the face of unjust laws. The opening of \"Walden\" begins with Thoreau recounting his two years of solitude in a self-built house by Walden Pond, where he lived simply and engaged in manual labor. He addresses the curiosity of his townsfolk about his lifestyle choices and presents his views on the societal pressures that guide people into lives of \"quiet desperation.\" Through vivid imagery and philosophical musings, Thoreau discusses the burdens of inherited possessions and societal expectations, asserting that many people live unexamined lives. He calls for a re-evaluation of what is considered necessary for a fulfilling life, suggesting that true happiness derives from simplicity, individual thought, and an intimate connection with nature.",
+        "downloadCount": 33667
+      },
+      {
+        "externalId": "408",
+        "title": "The Souls of Black Folk",
+        "authors": [
+          "W. E. B. (William Edward Burghardt) Du Bois"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/408.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/408",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/408/pg408.cover.medium.jpg",
+        "subjects": [
+          "African Americans",
+          "African American Writers",
+          "Essays, Letters & Speeches",
+          "History - American",
+          "Politics",
+          "Sociology"
+        ],
+        "description": "\"The Souls of Black Folk\" by W. E. B. Du Bois is a collection of essays published in 1903. This groundbreaking work explores the African-American experience through personal observations and social analysis. Du Bois introduces influential concepts like \"double consciousness\"—the experience of viewing oneself through both one's own eyes and those of a prejudiced society—and \"the veil\" that separates black and white Americans. Through essays on education, freedom, and justice, he examines the color line dividing races and argues for voting rights, quality education, and equal treatment.",
+        "downloadCount": 29969
+      },
+      {
+        "externalId": "921",
+        "title": "De Profundis",
+        "authors": [
+          "Oscar Wilde"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/921.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/921",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/921/pg921.cover.medium.jpg",
+        "subjects": [
+          "Grief",
+          "Imprisonment",
+          "Suffering",
+          "Wilde, Oscar, 1854-1900",
+          "Biographies",
+          "British Literature",
+          "Essays, Letters & Speeches"
+        ],
+        "description": "\"De Profundis\" by Oscar Wilde is a letter written between January and March 1897 during his imprisonment in Reading Gaol. Addressed to his former lover Lord Alfred Douglas, the letter reflects on their tumultuous relationship and the extravagance that led to Wilde's conviction for gross indecency. In its pages, Wilde examines both Douglas's vanity and his own failings, then charts his spiritual transformation in prison and profound identification with Christ as a romantic artist. Written under strict supervision, the complete text wasn't published until decades after Wilde's death.",
+        "downloadCount": 16878
+      },
+      {
+        "externalId": "5000",
+        "title": "The Notebooks of Leonardo Da Vinci — Complete",
+        "authors": [
+          "da Vinci Leonardo"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/5000.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/5000",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/5000/pg5000.cover.medium.jpg",
+        "subjects": [
+          "Art",
+          "Biographies",
+          "Engineering & Technology",
+          "Essays, Letters & Speeches",
+          "Science - Biology",
+          "Science - Physics"
+        ],
+        "description": "\"The Notebooks of Leonardo Da Vinci — Complete\" by Leonardo da Vinci is a comprehensive collection of writings and sketches that delve into various aspects of art and science, first compiled in the late 19th century. The notebooks reveal Leonardo's insights and observations on topics such as painting techniques, perspective, anatomy, and natural phenomena, reflecting the innovative spirit of the Renaissance era. The content spans approximately thirty years of Leonardo's intellectual labor, showcasing his analytical approach to understanding the world. The opening of the work provides an introduction and context for Leonardo's writings, emphasizing the challenges in deciphering his unique handwriting and the chaotic arrangement of his notes. It outlines the author's intent to publish his manuscripts, which cover a wide range of subjects, from theoretical knowledge required for painting to the principles of perspective. Additionally, the preface highlights the confusion present in the manuscripts and the importance of organizing them logically to aid readers. This initial portion sets the stage for an exploration of Leonardo's brilliant mind, inviting readers to engage with the fascinating intersection of art and science he so passionately pursued.",
+        "downloadCount": 16121
+      },
+      {
+        "externalId": "1212",
+        "title": "Love and Freindship [sic]",
+        "authors": [
+          "Jane Austen"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/1212.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/1212",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/1212/pg1212.cover.medium.jpg",
+        "subjects": [
+          "Epistolary fiction",
+          "Essays",
+          "British Literature",
+          "Essays, Letters & Speeches",
+          "Humour",
+          "Novels",
+          "Romance"
+        ],
+        "description": "\"Love and Freindship\" [sic] by Jane Austen is a juvenile story written in 1790. Composed when Austen was just fourteen years old, this epistolary tale brilliantly parodies the romantic novels of sensibility popular in her era. Through letters from the heroine Laura, Austen lampoons the absurd conventions of sentimental fiction—fainting spells, wild coincidences, and exaggerated emotions. The story follows Laura's whirlwind marriage, unlikely family reunions, and dramatic misfortunes, showcasing the sharp wit that would define Austen's later masterpieces.",
+        "downloadCount": 15438
+      },
+      {
+        "externalId": "147",
+        "title": "Common Sense",
+        "authors": [
+          "Thomas Paine"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/147.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/147",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/147/pg147.cover.medium.jpg",
+        "subjects": [
+          "Monarchy -- Early works to 1800",
+          "Political science -- Early works to 1800",
+          "Essays, Letters & Speeches",
+          "History - American",
+          "History - British",
+          "History - Modern (1750+)",
+          "Politics"
+        ],
+        "description": "\"Common Sense\" by Thomas Paine is a pamphlet published in January 1776 advocating independence from Great Britain for the Thirteen Colonies. Written in clear, persuasive prose, Paine presents moral and political arguments to encourage common people to fight for egalitarian government. Published anonymously at the American Revolution's beginning, it became an immediate sensation—the best-selling American title of all time. Paine connected independence with Protestant beliefs and structured his work like a sermon, making the first serious case for full independence when reconciliation still dominated colonial thinking.",
+        "downloadCount": 14772
+      },
+      {
+        "externalId": "3600",
+        "title": "Essays of Michel de Montaigne — Complete",
+        "authors": [
+          "Michel de Montaigne"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/3600.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/3600",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/3600/pg3600.cover.medium.jpg",
+        "subjects": [
+          "Banned Books from Anne Haight's list",
+          "Best Books Ever Listings"
+        ],
+        "description": "\"Essays of Michel de Montaigne — Complete\" by Michel de Montaigne is a collection of essays written between approximately 1570 and 1592. Montaigne set out to record his own character and humors with complete frankness, creating a new literary form he called \"attempts\" or \"tests.\" The essays range from profound topics like conscience and sadness to trivial subjects like smells, examining human nature through skeptical inquiry. Writing during France's religious wars, Montaigne questioned certainty itself, asking \"What do I know?\" while freely associating ideas and drawing on classical sources.",
+        "downloadCount": 13863
+      },
+      {
+        "externalId": "61",
+        "title": "The Communist Manifesto",
+        "authors": [
+          "Karl Marx",
+          "Friedrich Engels"
+        ],
+        "readUrl": "https://www.gutenberg.org/ebooks/61.html.images",
+        "externalUrl": "https://www.gutenberg.org/ebooks/61",
+        "coverUrl": "https://www.gutenberg.org/cache/epub/61/pg61.cover.medium.jpg",
+        "subjects": [
+          "Communism",
+          "Socialism",
+          "Banned Books from Anne Haight's list",
+          "Economics",
+          "Essays, Letters & Speeches",
+          "History - Modern (1750+)",
+          "Philosophy & Ethics",
+          "Politics",
+          "Philosophy"
+        ],
+        "description": "\"The Communist Manifesto\" by Karl Marx and Friedrich Engels is a political pamphlet published in 1848. Commissioned by the Communist League, it presents the theory that all history is shaped by class struggle. The authors analyze how capitalism creates conflict between the working class and those who own the means of production. They predict capitalism will destroy itself through internal contradictions, leading to revolution and a classless society. The manifesto outlines transitional policies and ends with its famous call for working-class solidarity across all nations.",
+        "downloadCount": 13596
+      }
+    ]
+  }
+}

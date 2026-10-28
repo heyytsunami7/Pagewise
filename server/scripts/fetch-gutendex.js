@@ -40,7 +40,9 @@ async function main() {
     for (const category of options.only || []) delete existing.categories[category];
   }
 
-  const client = createGutendexClient(createHttpClient());
+  // Gutendex is a small community server, and broad topics like "fiction" can be slow.
+  const http = createHttpClient({ timeoutMs: 60000, retries: 4, retryDelayMs: 3000 });
+  const client = createGutendexClient(http);
   const result = await fetchGutendexCatalog({
     client,
     categories: options.only || undefined,

@@ -2,6 +2,7 @@
 // It only reads from Open Library and writes one local file. It never touches a database.
 const fs = require("node:fs");
 const path = require("node:path");
+require("dotenv").config({ path: path.join(__dirname, "..", ".env"), quiet: true });
 const { createHttpClient } = require("./lib/http");
 const { createOpenLibraryClient } = require("./lib/openlibrary");
 const { fetchOpenLibraryCatalog, parseFetchArgs } = require("./lib/fetchOpenLibrary");

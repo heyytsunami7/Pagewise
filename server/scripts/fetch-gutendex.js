@@ -3,6 +3,7 @@
 // It never touches a database.
 const fs = require("node:fs");
 const path = require("node:path");
+require("dotenv").config({ path: path.join(__dirname, "..", ".env"), quiet: true });
 const { createHttpClient } = require("./lib/http");
 const { createGutendexClient } = require("./lib/gutendex");
 const { fetchGutendexCatalog, parseGutendexArgs } = require("./lib/fetchGutendex");

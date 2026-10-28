@@ -14,7 +14,8 @@
     "catalog:fetch:openlibrary": "node scripts/fetch-openlibrary.js",
     "catalog:fetch:gutendex": "node scripts/fetch-gutendex.js",
     "catalog:fetch": "npm run catalog:fetch:openlibrary && npm run catalog:fetch:gutendex",
-    "catalog:build": "node scripts/build-catalog.js"
+    "catalog:build": "node scripts/build-catalog.js",
+    "seed": "node scripts/seed.js"
   },
   "keywords": [],
   "author": "",

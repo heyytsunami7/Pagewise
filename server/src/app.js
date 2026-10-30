@@ -10,6 +10,7 @@ const { createLimiters } = require("./middleware/rateLimit");
 const { notFoundHandler, errorHandler } = require("./middleware/error");
 const healthRouter = require("./routes/health");
 const meRouter = require("./routes/me");
+const booksRouter = require("./routes/books");
 
 /**
  * Builds the Express app from injected dependencies. It never connects to a database
@@ -38,6 +39,7 @@ function createApp({ config, getDb, verifyIdToken, logger }) {
   app.get("/", (req, res) => res.json({ name: "mern-book-store-api", ok: true }));
   app.use(healthRouter({ getDb }));
   app.use(meRouter({ getDb, auth }));
+  app.use(booksRouter({ getDb }));
   // Later commits mount more routers here.
 
   app.use(notFoundHandler);

@@ -55,9 +55,14 @@ const bookListQuerySchema = z
     };
   });
 
+// GET /books/suggest query: the text typed so far. Short or empty text simply gives no results.
+const bookSuggestQuerySchema = z.strictObject({
+  q: optional(z.string().trim().max(100)),
+});
+
 // Route parameter for /books/:id and similar: a MongoDB ObjectId as 24 hex characters.
 const bookIdParamsSchema = z.strictObject({
   id: z.string().regex(/^[a-f0-9]{24}$/i, "Must be a valid book id"),
 });
 
-module.exports = { bookListQuerySchema, bookIdParamsSchema, BOOK_SORTS };
+module.exports = { bookListQuerySchema, bookSuggestQuerySchema, bookIdParamsSchema, BOOK_SORTS };

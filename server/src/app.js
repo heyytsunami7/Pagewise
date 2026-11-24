@@ -11,7 +11,7 @@ const { notFoundHandler, errorHandler } = require("./middleware/error");
 const healthRouter = require("./routes/health");
 const meRouter = require("./routes/me");
 const booksRouter = require("./routes/books");
-
+const adminBooksRouter = require("./routes/adminBooks");
 /**
  * Builds the Express app from injected dependencies. It never connects to a database
  * or opens a port, so tests can import it freely.
@@ -41,7 +41,7 @@ function createApp({ config, getDb, verifyIdToken, logger }) {
   app.use(meRouter({ getDb, auth }));
   app.use(booksRouter({ getDb }));
   // Later commits mount more routers here.
-
+  app.use(adminBooksRouter({ getDb, auth }));
   app.use(notFoundHandler);
   app.use(errorHandler);
 

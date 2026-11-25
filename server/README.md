@@ -131,3 +131,58 @@ Every error uses one shape:
 
 A user is an admin only if their email is verified and listed in `ADMIN_EMAILS`.
 If the list is empty, nobody is an admin.
+
+## API
+
+Base URL locally: `http://localhost:3001`. Send the Firebase ID token as
+`Authorization: Bearer <token>` on routes marked **login** or **admin**. Errors use the
+shape in "Errors" below. Every route is rate limited (300 requests per 15 minutes per IP).
+
+### Public
+
+| Method | Path                 | Response                                                                     |
+| ------ | -------------------- | ---------------------------------------------------------------------------- |
+| GET    | `/`                  | `{ "name": "mern-book-store-api", "ok": true }`                              |
+| GET    | `/health`            | `{ "ok": true, "db": true }`, or 503 `{ "ok": false, "db": false }`          |
+| GET    | `/books`             | `{ books, total, page, limit, totalPages }`                                  |
+| GET    | `/books/suggest?q=`  | `{ suggestions: [{ _id, title, coverUrl }] }` (up to 8, needs 2+ characters) |
+| GET    | `/books/:id`         | `{ book }`, or 404 if missing or archived                                    |
+| GET    | `/books/:id/related` | `{ books }` (same author first, then same category, up to 6)                 |
+
+`GET /books` query parameters (unknown keys are rejected with 400):
+
+| Parameter              | Values                                                                |
+| ---------------------- | --------------------------------------------------------------------- |
+| `page`, `limit`        | `page` 1 to 1000 (default 1), `limit` 1 to 48 (default 12)            |
+| `q`                    | Search text, up to 100 characters                                     |
+| `category`             | One of the ten categories                                             |
+| `minPrice`, `maxPrice` | Whole rupees, 0 to 10000                                              |
+| `inStock`, `free`      | `1`/`true` or `0`/`false` (`free` means it has a read link)           |
+| `sort`                 | `relevance` (needs `q`), `newest`, `price_asc`, `price_desc`, `title` |
+
+A list item has `_id`, `title`, `authors`, `category`, `coverUrl`, `pricePaise`, `stock`,
+`isFeatured` and `readUrl`. The detail `book` adds `description`, `subjects`,
+`externalUrl`, `isbn`, `pageCount` and `publishedYear`. Prices are in paise.
+
+### Login
+
+| Method | Path  | Response                                                        |
+| ------ | ----- | --------------------------------------------------------------- |
+| GET    | `/me` | `{ uid, email, name, isAdmin }`. Creates the user on first call |
+
+### Admin
+
+Needs a verified email listed in `ADMIN_EMAILS`. No token gives 401, a non-admin gives 403.
+
+| Method | Path                       | Response                                                            |
+| ------ | -------------------------- | ------------------------------------------------------------------- |
+| GET    | `/admin/books`             | `{ books, total, page, limit, totalPages }`                         |
+| GET    | `/admin/books/:id`         | `{ book }` (the whole document, archived or not)                    |
+| POST   | `/admin/books`             | 201 `{ book }`. 409 if the ISBN is taken                            |
+| PATCH  | `/admin/books/:id`         | `{ book }`. Send only the fields to change. 404 if missing          |
+| DELETE | `/admin/books/:id`         | `{ archived, deleted }`. Ordered books are archived, others deleted |
+| POST   | `/admin/books/:id/restore` | `{ book }` (an archived book is active again)                       |
+
+`GET /admin/books` takes the same `page`, `limit`, `q` and `category` as the public list,
+plus `status` (`active` (default), `archived`, `all`) and `sort` (`newest`, `title`,
+`price_asc`, `price_desc`, `stock_asc`). `q` also matches an exact ISBN.

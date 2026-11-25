@@ -18,7 +18,6 @@ Zod validation.
 | `npm run catalog:fetch`             | Both fetches, one after the other                                        |
 | `npm run catalog:build`             | Build `data/catalog.json` from the raw files                             |
 | `npm run seed`                      | Load `data/catalog.json` into the database (dev and test databases only) |
-| `npm run dev:legacy`                | Run the old single-file server (removed in Phase 3)                      |
 
 ## Environment
 

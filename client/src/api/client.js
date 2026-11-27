@@ -11,7 +11,20 @@ export class ApiError extends Error {
         this.details = details;
     }
 }
+let tokenGetter = async () => null;
 
+// authStore registers how to get the current Firebase token, so every request is signed.
+export function setTokenGetter(getter) {
+    tokenGetter = getter;
+}
+
+async function currentToken() {
+    try {
+        return await tokenGetter();
+    } catch {
+        return null; // no token: the server answers 401 and the caller handles it
+    }
+}
 function buildUrl(path, query) {
     const params = new URLSearchParams();
     for (const [key, value] of Object.entries(query || {})) {
@@ -23,13 +36,15 @@ function buildUrl(path, query) {
 
 /**
  * apiFetch("/books", { query: { page: 2 } }) resolves with the parsed JSON body.
- * Options: method, body (sent as JSON), query (empty values are skipped), token, signal.
+  * Options: method, body (sent as JSON), query (empty values are skipped), signal, and token
+ * (optional: by default the logged-in user's token is attached automatically).
  * Rejects with an ApiError, except when the caller aborts: that rethrows the AbortError.
  */
 export async function apiFetch(path, { method = "GET", body, query, token, signal } = {}) {
     const headers = { Accept: "application/json" };
     if (body !== undefined) headers["Content-Type"] = "application/json";
-    if (token) headers.Authorization = `Bearer ${token}`;
+    const authToken = token ?? (await currentToken());
+    if (authToken) headers.Authorization = `Bearer ${authToken}`;
 
     let res;
     try {

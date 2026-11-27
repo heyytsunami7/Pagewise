@@ -9,7 +9,7 @@ import {
     signOut,
 } from "firebase/auth";
 import app from "../firebase/firebase.config";
-import { apiFetch } from "../api/client";
+import { apiFetch, setTokenGetter } from "../api/client";
 
 const auth = getAuth(app);
 const googleProvider = new GoogleAuthProvider();
@@ -32,7 +32,7 @@ export const useAuthStore = create((set, get) => ({
             set({ user, loading: true });
             let isAdmin = false;
             try {
-                const me = await apiFetch("/me", { token: await user.getIdToken() });
+                const me = await apiFetch("/me");
                 isAdmin = me.isAdmin === true;
             } catch {
                 // The API is down or rejected us: stay logged in, just not as an admin.
@@ -55,3 +55,6 @@ export const useAuthStore = create((set, get) => ({
     // The current user's Firebase ID token, or null when logged out.
     getToken: async () => (auth.currentUser ? auth.currentUser.getIdToken() : null),
 }));
+
+// Every apiFetch call now carries the logged-in user's token.
+setTokenGetter(() => useAuthStore.getState().getToken());

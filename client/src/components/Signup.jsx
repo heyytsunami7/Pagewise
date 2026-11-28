@@ -1,10 +1,11 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../Context/AuthProvider';
+import { useAuthStore } from '../store/authStore';
 import google from '../assets/google-logo.svg';
 
 const Signup = () => {
-  const { createUser, loginWithGoogle } = useContext(AuthContext);
+  const signup = useAuthStore((s) => s.signup);
+  const loginWithGoogle = useAuthStore((s) => s.loginWithGoogle);
   const [error, setError] = useState('');
 
   const location = useLocation();
@@ -19,7 +20,7 @@ const Signup = () => {
     const password = form.password.value;
 
     try {
-      const userCredential = await createUser(email, password);
+      const userCredential = await signup(email, password);
       // signed up
       const user = userCredential.user;
       alert('Sign up Successfully !!');

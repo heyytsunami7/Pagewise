@@ -9,12 +9,11 @@ import {
   HiTable,
   HiViewBoards,
 } from "react-icons/hi";
-import { useContext } from "react";
-import { AuthContext } from "../Context/AuthProvider";
+import { useAuthStore } from "../store/authStore";
 import { Link } from "react-router-dom"; // Import Link component
 
 const SideBar = () => {
-  const { user } = useContext(AuthContext);
+  const user = useAuthStore((s) => s.user);
   return (
     <Sidebar aria-label="Sidebar with content separator example">
       <Sidebar.Logo href="#" img={user?.photoURL} imgAlt="Flowbite logo">

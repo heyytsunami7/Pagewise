@@ -1,13 +1,13 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Table } from "flowbite-react";
 import { Link } from "react-router-dom";
-import { AuthContext } from "../Context/AuthProvider";
+import { useAuthStore } from "../store/authStore";
 
 const API = import.meta.env.VITE_API_URL;
 
 const ManageBooks = () => {
   const [ allBooks,setAllBooks ] = useState([]);
-  const { getToken } = useContext(AuthContext);
+  const getToken = useAuthStore((s) => s.getToken);
 
   useEffect(()=>{
     fetch(`${API}/all-books`).then(res=>res.json()).then(data=> setAllBooks(data.books || []));

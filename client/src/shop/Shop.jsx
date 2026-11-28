@@ -1,13 +1,12 @@
 import { Card } from "flowbite-react";
 import { useState, useEffect } from 'react';
-import { AuthContext } from '../Context/AuthProvider';
-import { useContext } from 'react';
+import { useAuthStore } from '../store/authStore';
 import { useNavigate } from 'react-router-dom';
 const API = import.meta.env.VITE_API_URL;
 
 const Shop = () => {
   const [books, setBooks] = useState([]);
-  const { user } = useContext(AuthContext);
+  const user = useAuthStore((s) => s.user);
   const navigate = useNavigate();
   useEffect(() => {
     fetch(`${API}/all-books`).then(res => res.json()).then(data => setBooks(data.books || []));

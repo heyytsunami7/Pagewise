@@ -1,11 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Button,  Label, TextInput, Textarea } from "flowbite-react";
-import { AuthContext } from "../Context/AuthProvider";
+import { useAuthStore } from "../store/authStore";
 
 const API = import.meta.env.VITE_API_URL;
 
 const UploadBooks = () => {
-  const { getToken } = useContext(AuthContext);
+  const getToken = useAuthStore((s) => s.getToken);
   const bookCategories = [
     "Fiction",
     "Non-Fiction",

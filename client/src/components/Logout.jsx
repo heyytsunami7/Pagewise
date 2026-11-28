@@ -1,16 +1,16 @@
-import React, { useContext } from 'react';
-import { AuthContext } from '../Context/AuthProvider';
+import React from 'react';
+import { useAuthStore } from '../store/authStore';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Logout = () => {
-    const { logOut } = useContext(AuthContext);
+    const logout = useAuthStore((s) => s.logout);
     const location = useLocation();
     const navigate = useNavigate();
 
     const from = location.state?.from?.pathname || '/';
 
     const handleLogout = () => {
-        logOut()
+        logout()
             .then(() => {
                 // Sign-out successful.
                 alert('You are now Signed Out');

@@ -4,11 +4,12 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import router from './router/router.jsx'
-import AuthProvider from "./Context/AuthProvider.jsx"
+import { useAuthStore } from "./store/authStore.js"
+
+// Start listening to Firebase login state once, before the first render.
+useAuthStore.getState().init()
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthProvider>
     <RouterProvider router={router} />
-    </AuthProvider>
   </React.StrictMode>,
 )

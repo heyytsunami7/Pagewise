@@ -1,10 +1,11 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../Context/AuthProvider';
+import { useAuthStore } from '../store/authStore';
 import google from '../assets/google-logo.svg';
 
 const Login = () => {
-  const { login, loginWithGoogle } = useContext(AuthContext);
+  const login = useAuthStore((s) => s.login);
+  const loginWithGoogle = useAuthStore((s) => s.loginWithGoogle);
   const [error, setError] = useState('');
   const location = useLocation();
   const navigate = useNavigate();

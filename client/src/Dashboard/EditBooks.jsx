@@ -1,15 +1,15 @@
 import React from 'react'
 import {useLoaderData,useParams} from "react-router-dom";
 import { Button,  Label, TextInput, Textarea } from "flowbite-react";
-import { useState, useContext } from 'react';
-import { AuthContext } from "../Context/AuthProvider";
+import { useState } from 'react';
+import { useAuthStore } from "../store/authStore";
 
 const API = import.meta.env.VITE_API_URL;
 
 const EditBooks = () => {
   const {id} = useParams();
   const {bookTitle,authorName,imageURL,category,bookDescription,bookPDFUrl} = useLoaderData();
-  const { getToken } = useContext(AuthContext);
+  const getToken = useAuthStore((s) => s.getToken);
 
   const bookCategories = [
     "Fiction",
